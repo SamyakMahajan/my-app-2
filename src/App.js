@@ -13,18 +13,18 @@ function App() {
                             <Link to="/">Home</Link>
                         </li>
                         <li>
-                            <Link to="/add-product">Add Product</Link>
+                            <Link to="https://ph726.azurewebsites.net/add-product">Add Product</Link>
                         </li>
                         <li>
-                            <Link to="/list-products">List Products</Link>
+                            <Link to="https://ph726.azurewebsites.net/list-products">List Products</Link>
                         </li>
                     </ul>
                 </nav>
 
                 <Routes>
-                    <Route path="/add-product" element={<AddProduct />} />
-                    <Route path="/list-products" element={<ListProducts />} />
-                    <Route path="/" element={<div>Welcome to the Product Management System</div>} />
+                    <Route path="https://ph726.azurewebsites.net/add-product" element={<AddProduct />} />
+                    <Route path="https://ph726.azurewebsites.net/list-products" element={<ListProducts />} />
+                    <Route path="https://ph726.azurewebsites.net/" element={<div>Welcome to the Product Management System</div>} />
                 </Routes>
             </div>
         </Router>

@@ -18,7 +18,7 @@ function AddProduct() {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const response = await axios.post('/products', product);
+            const response = await axios.post('https://ph726.azurewebsites.net/products', product);
             alert('Product added successfully!');
             console.log(response.data);
             // Reset form or handle success
